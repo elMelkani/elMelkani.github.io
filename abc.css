@@ -1,0 +1,189 @@
+
+@font-face
+{
+font-family: fontmy;
+src: url('fontmy.ttf'),
+     url('fontmy.eot'); /* IE9+ */
+}
+.images
+{
+   opacity:;
+   background-color: #21263A;
+   position:fixed;
+   z-index:2;
+   width:900px;
+   margin-left:-450px;
+   left:50%;
+   height:90%;
+   top:5%;
+}
+
+.bigone
+{
+  opacity:0.75;
+  background-color: #21263A;
+  /*top:5%;
+  left:5%;
+  right:5%;*/
+  position:absolute;
+  top:0px;
+  left:50%;
+  width:900px;
+  position:fixed;
+  margin-left:-450px;
+  z-index:1;
+  height:100%;
+  bottom:0px;
+}
+.allenclosing
+{
+  /*filter:alpha(opacity=6);*/
+  padding-top:35px;
+  z-index:1;
+  top:0px;
+  left:50%;
+  width:900px;
+  position:absolute;
+  margin-left:-450px;
+  min-height:100%;
+}
+.title
+{
+	border-bottom:;
+	opacity:0.75;
+}
+.belowtitle
+{
+	position:;  height:100%;  
+}
+.left
+{
+	height:100%;
+	width:24%;
+	position:relative;
+	top:0px;
+	left:0px;
+	float:left;
+
+}
+.quote
+{
+	position:absolute;
+	padding-left:10px;
+	padding-right:5px;
+	padding-bottom:5px;
+	width:230px;
+	top:100px;
+	opacity:0.8;
+}
+.index
+{
+	position:fixed;
+	width:216px;
+	padding-top:100px;
+	padding-left:7px;
+	padding-right:0px;
+	opacity:0.8;
+}
+.button
+{
+	border:#FFF thin solid;
+	border-top:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	opacity:0.8;
+	background-color:#1D8FBA;
+	cursor:pointer;
+
+}
+.selectedbutton
+{
+	border:#FFF thin solid;
+	border-top:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	opacity:0.8;
+	background-color:#155499;
+	cursor:pointer;
+}
+.minibutton
+{}
+.buttonfont
+{
+	font-family:fontmy;
+	color:#E3E4FB;
+	font-size:16px;
+}
+.content
+{
+	float:right;
+	top:0px;
+	width:72%;
+	right:0px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:9px;
+	padding-bottom:7px;
+	/*overflow-y:scroll;*/
+	/*height:500px;*/
+}
+font.pekfont
+{
+	font-family:fontmy;
+	
+}
+font.smalltitlefont
+{
+	font-family:fontmy;
+	/*font-family:Arial, Helvetica, sans-serif;
+	color:#b4733f;
+	color:#8A2B2B;*/
+	color:#CF8585;
+	font-size:19px;
+	opacity:0.8;
+}
+font.smalltitlefont2
+{
+	font-family:fontmy;
+	/*font-family:Arial, Helvetica, sans-serif;
+	color:#b4733f;
+	color:#8A2B2B;*/
+	color:#CF8585;
+	font-size:14px;
+	opacity:0.8;
+}
+font.textfont
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#DAD3E7;
+	font-size:14px;
+	opacity:0.75;
+}
+font.insidefont
+{
+	font-size:11.5px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#FFF;
+	font-weight:bold;
+	opacity:0.75;
+}
+.divinside
+{
+	padding-top:5px;
+    padding-bottom:5px;
+}
+.imageinside
+{
+	padding-right:5px; 
+	padding-left:5px; 
+	border:#aaa 1px solid;
+	padding-top:2px;
+}
+.noborder
+{
+	border:none;
+}
+a:link {text-decoration:none; border:none}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:none;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
